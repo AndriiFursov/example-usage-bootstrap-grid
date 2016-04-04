@@ -1,0 +1,485 @@
+@font-face {
+  font-family: 'PFDCP';
+  src: url('fonts/PFDinTextCompPro-Regular.eot');
+  src: local('PFDinTextCompPro-Regular'), url('fonts/PFDinTextCompPro-Regular.eot#iefix') format('embedded-opentype'), url('fonts/PFDinTextCompPro-Regular.woff') format('woff'), url('fonts/PFDinTextCompPro-Regular.ttf') format('truetype'), url('fonts/PFDinTextCompPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDCP';
+  src: url('fonts/PFDinTextCompPro-Medium.eot');
+  src: local('PFDinTextCompPro-Medium'), url('fonts/PFDinTextCompPro-Medium.eot#iefix') format('embedded-opentype'), url('fonts/PFDinTextCompPro-Medium.woff') format('woff'), url('fonts/PFDinTextCompPro-Medium.ttf') format('truetype'), url('fonts/PFDinTextCompPro-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDCPt';
+  src: url('fonts/PFDinTextCompPro-Thin.eot');
+  src: local('PFDinTextCompPro-Thin'), url('fonts/PFDinTextCompPro-Thin.eot#iefix') format('embedded-opentype'), url('fonts/PFDinTextCompPro-Thin.woff') format('woff'), url('fonts/PFDinTextCompPro-Thin.ttf') format('truetype'), url('fonts/PFDinTextCompPro-Thin.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  color: #020202;
+  font-family: PFDCP;
+}
+header {
+  text-align: center;
+  color: #020202;
+}
+header a {
+  color: #020202;
+}
+header .header__top {
+  background-color: #f2a613;
+  font-family: PFDCP;
+  line-height: 67px;
+}
+header .header__logo {
+  width: 236px;
+  height: 190px;
+  margin: 0 auto;
+}
+header .documents {
+  padding-top: 20px;
+  line-height: 50px;
+}
+header .documents a {
+  text-decoration: underline;
+  font-size: 24px;
+}
+header .documents a:hover {
+  color: #020202;
+}
+header .phone {
+  font-size: 34px;
+}
+header .contacts a {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 0 12px;
+  background-image: url("../img/sprite.png");
+}
+header .contacts .mailto {
+  background-position: 0px  0px;
+}
+header .contacts .facebook {
+  background-position: -43px 0px;
+}
+header .header__bottom {
+  margin: 7px 0;
+  background-color: #ffffff;
+  font-family: PFDCP;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+header .header__img {
+  height: 416px;
+  background-image: url("../img/main-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main h2 {
+  font-family: PFDCPt;
+  font-size: 56px;
+  text-align: center;
+}
+main .about {
+  padding: 45px 0 25px;
+  text-align: center;
+}
+main .about h2 {
+  margin-bottom: 60px;
+}
+main .about .about__img {
+  width: 104px;
+  height: 104px;
+  margin: 0 auto 12px;
+  background-image: url("../img/sprite.png");
+}
+main .about .img1 {
+  background-position: -86px 0;
+}
+main .about .img2 {
+  background-position: -193px 0;
+}
+main .about .img3 {
+  background-position: 105px 0;
+}
+main .about .about__txt {
+  margin-bottom: 35px;
+  font-size: 27px;
+  line-height: 27.28px;
+}
+main .advantages {
+  padding: 15px 0 25px;
+  background-color: #cf0523;
+  color: #ffffff;
+  text-align: center;
+}
+main .advantages h2 {
+  margin-bottom: 40px;
+}
+main .advantages ul {
+  margin-top: 40px;
+  text-align: left;
+}
+main .advantages li {
+  margin-bottom: 30px;
+  font-size: 27px;
+  line-height: 27.28px;
+}
+main .advantages li:nth-child(1) {
+  list-style-image: url("../img/li1.png");
+}
+main .advantages li:nth-child(2) {
+  list-style-image: url("../img/li2.png");
+}
+main .advantages li:nth-child(3) {
+  list-style-image: url("../img/li3.png");
+}
+main .advantages li:nth-child(4) {
+  list-style-image: url("../img/li4.png");
+}
+main .advantages li strong {
+  font-weight: 500;
+}
+main .food {
+  padding: 15px 0 25px;
+  background-color: #ffffff;
+}
+main .food h2 {
+  margin-bottom: 40px;
+}
+main .food .hr {
+  height: 2px;
+  background-image: url("../img/border-dashed-strong.png");
+  background-repeat: repeat;
+  background-position: -2px 0;
+}
+main .food figure {
+  position: relative;
+}
+main .food figure p {
+  text-align: center;
+}
+main .food figure img {
+  width: 100%;
+  height: auto;
+}
+main .food figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 5.5vw;
+  line-height: 6.5vw;
+}
+main .food figure .fhl {
+  margin-top: 17%;
+  margin-left: 50%;
+}
+main .food figure .fhd {
+  margin-top: 19%;
+  margin-left: 50%;
+}
+main .food figure .bu {
+  margin-top: 14%;
+  margin-left: 50%;
+}
+main .food figure .ch {
+  margin-top: 19%;
+  margin-left: 50%;
+}
+main .food figure .chf {
+  margin-top: 25%;
+  margin-left: 24%;
+}
+main .food figure .pf {
+  margin-top: 26%;
+  margin-left: 25%;
+}
+main .food figure .pv {
+  margin-top: 20%;
+  margin-left: 28%;
+}
+main .food figure .pvs {
+  margin-top: 15%;
+  margin-left: 26%;
+  line-height: 6vw;
+}
+main .food figure .kr {
+  margin-top: 15%;
+  margin-left: 25%;
+}
+main .food figure .st {
+  margin-top: 17%;
+  margin-left: 28%;
+}
+main .food figure .small-big {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3vw;
+}
+main .food figure.menu-item6 .small-big {
+  margin-top: 24%;
+  margin-left: 60%;
+}
+main .food figure.menu-item7 .small-big {
+  margin-top: 19%;
+  margin-left: 77%;
+}
+main .food figure.menu-item8 .small-big {
+  margin-top: 16%;
+  margin-left: 73%;
+}
+main .food figure.menu-item9 .small-big {
+  margin-top: 14%;
+  margin-left: 50%;
+}
+main .food figure.menu-item10 .small-big {
+  margin-top: 16%;
+  margin-left: 55%;
+}
+main .food div[class^="col"] > p {
+  font-size: 20px;
+  line-height: 20.2px;
+  margin-bottom: 40px;
+}
+main .food .potato {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main .food .extra {
+  text-align: center;
+}
+main .food .extra h3 {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 22.44px;
+  color: #ce1325;
+}
+main .food .drinks {
+  margin-bottom: 10px;
+}
+main .food .drinks p {
+  font-size: 20px;
+  line-height: 20.2px;
+}
+main .food .sauces {
+  margin-bottom: 60px;
+}
+main .food .sauces figure {
+  margin-bottom: 30px;
+}
+main .food .sauces figure img {
+  width: 111px;
+  height: 109px;
+}
+main .food .sauces figure figcaption {
+  position: relative;
+  font-size: 20px;
+  line-height: 20.2px;
+}
+main .food .sets figure {
+  margin-bottom: 103px;
+}
+main .food .sets figure img {
+  width: 294px;
+  height: 266px;
+}
+main .food .sets figure figcaption {
+  position: relative;
+  font-size: 21px;
+  line-height: 21.7px;
+}
+main .vip {
+  padding: 30px 0 35px;
+  background-color: #f2a613;
+  text-align: center;
+}
+main .vip h2 {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+main .vip img {
+  width: 257px;
+  height: 257px;
+}
+main .vip ul {
+  margin-top: 40px;
+  padding: 0 10px;
+  text-align: left;
+  list-style-type: none;
+}
+main .vip li {
+  margin-bottom: 25px;
+  font-size: 27px;
+  line-height: 27.28px;
+}
+main .vip li:nth-child(1) {
+  list-style-image: url("../img/li1.png");
+}
+main .vip li:nth-child(2) {
+  list-style-image: url("../img/li2.png");
+}
+main .vip li:nth-child(3) {
+  list-style-image: url("../img/li3.png");
+}
+main .vip li:nth-child(4) {
+  list-style-image: url("../img/li4.png");
+}
+main .vip li em {
+  font-family: PFDCPt;
+  font-style: normal;
+}
+footer {
+  font-family: PFDCP;
+  text-align: center;
+  color: #020202;
+}
+footer .footer__top {
+  padding: 100px 0 115px;
+  background-color: #ffffff;
+}
+footer .contacts {
+  font-size: 31px;
+}
+footer .contacts h2 {
+  font-weight: normal;
+}
+footer .phone {
+  font-size: 36px;
+}
+footer .mail {
+  font-size: 25px;
+}
+footer .mail a {
+  text-decoration: none;
+  color: #020202;
+}
+footer .footer__bottom {
+  height: 110px;
+  background-color: #cf0523;
+  line-height: 110px;
+  text-align: center;
+}
+footer .potato-bouquet {
+  width: 107px;
+  height: 55px;
+  margin: -55px auto 0;
+  background-image: url("../img/potato-footer.png");
+}
+@media (min-width: 768px) {
+  main .food figure figcaption {
+    font-size: 21.167px;
+    line-height: 24.95px;
+  }
+  main .food figure .pvs {
+    line-height: 23.0333px;
+  }
+  main .food figure .small-big {
+    font-size: 11.5167px;
+  }
+  main .food .burger .description {
+    margin-left: 50%;
+  }
+  main .food .potato .description {
+    position: relative;
+    top: -65px;
+    margin-left: 25%;
+    margin-bottom: 0;
+  }
+  main .food .potato .menu-item7 + .description {
+    top: -80px;
+  }
+  main .food .potato .menu-item8 + .description {
+    top: -80px;
+  }
+  main .food .potato .menu-item9 + .description {
+    top: -100px;
+  }
+  main .food .potato .menu-item10 + .description {
+    top: -90px;
+  }
+  main .food .sauces figure {
+    width: 100%;
+  }
+  main .drinks div:first-child p {
+    text-align: right;
+  }
+  main .drinks div:last-child p {
+    padding-top: 40px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  header .header__logo {
+    position: absolute;
+    margin: 0 0;
+  }
+  header .documents {
+    padding-top: 26px;
+  }
+  header .contacts {
+    height: 80px;
+    padding-top: 15px;
+    text-align: left;
+  }
+  header .header__top {
+    height: 106px;
+    line-height: 106px;
+  }
+  header .phone {
+    text-align: right;
+  }
+  header .header__bottom {
+    height: 106px;
+    margin: 0;
+  }
+  header .header__bottom h1 {
+    margin: 0;
+    line-height: 106px;
+  }
+  main .about {
+    padding-top: 0;
+  }
+  main .food {
+    padding-top: 80px;
+  }
+  main .food figure figcaption {
+    font-size: 28.15px;
+    line-height: 33.2667px;
+  }
+  main .food figure .pvs {
+    line-height: 30.7167px;
+  }
+  main .food figure .small-big {
+    font-size: 15.35px;
+  }
+  main .advantages ul,
+  main .vip ul {
+    margin-top: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  main .advantages img,
+  main .vip img {
+    width: 215px;
+    height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  main .food figure figcaption {
+    font-size: 35.2px;
+    line-height: 41.6px;
+  }
+  main .food figure .pvs {
+    line-height: 38.4px;
+  }
+  main .food figure .small-big {
+    font-size: 19.2px;
+    line-height: 27.4333px;
+  }
+}
